@@ -9,15 +9,15 @@ Summary:	Text::Glob perl module - match globbing patterns against text
 Summary(pl):	Modu³ perla Text::Glob - dopasowywanie tekstu do wzorców
 Name:		perl-Text-Glob
 Version:	0.05
-Release:	1
+Release:	2
 License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	perl >= 5.6
 %if %{?_without_tests:0}%{!?_without_tests:1}
 BuildRequires:	perl-Test-Simple
 %endif
-BuildRequires:	perl >= 5.6
+BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -27,7 +27,10 @@ against text, rather than fetching names from a filesystem. If you
 want to do full file globbing use the File::Glob module instead.
 
 %description -l pl
-# TODO
+Text::Glob jest implementacj± dopasowywania w stylu glob(3), które
+mo¿e byæ u¿ywane do dopasowywania tekstu, a nie nazw plików. Je¶li
+potrzeba pe³nej implementacji glob dla plików, nale¿y u¿yæ modu³u
+File::Glob zamiast tego.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
