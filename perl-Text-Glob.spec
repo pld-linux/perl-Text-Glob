@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define		pdir	Text
-%define		pnam	Glob
+%define	pdir	Text
+%define	pnam	Glob
 Summary:	Text::Glob perl module - match globbing patterns against text
 Summary(pl):	Modu³ perla Text::Glob - dopasowywanie tekstu do wzorców
 Name:		perl-Text-Glob
