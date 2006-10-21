@@ -8,13 +8,13 @@
 Summary:	Text::Glob perl module - match globbing patterns against text
 Summary(pl):	Modu³ perla Text::Glob - dopasowywanie tekstu do wzorców
 Name:		perl-Text-Glob
-Version:	0.06
-Release:	2
+Version:	0.07
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	800d5a40b2f0c7514c58d736d21f616c
+# Source0-md5:	e96a4fef8eb2037a85a8119dddc8a4f9
 BuildRequires:	perl-devel >= 1:5.8.0
 %if %{with tests}
 BuildRequires:	perl-Test-Simple
