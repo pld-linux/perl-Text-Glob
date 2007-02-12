@@ -6,7 +6,7 @@
 %define		pdir	Text
 %define		pnam	Glob
 Summary:	Text::Glob perl module - match globbing patterns against text
-Summary(pl):	Modu≥ perla Text::Glob - dopasowywanie tekstu do wzorcÛw
+Summary(pl.UTF-8):   Modu≈Ç perla Text::Glob - dopasowywanie tekstu do wzorc√≥w
 Name:		perl-Text-Glob
 Version:	0.07
 Release:	1
@@ -28,10 +28,10 @@ Text::Glob implements glob(3) style matching that can be used to match
 against text, rather than fetching names from a filesystem. If you
 want to do full file globbing use the File::Glob module instead.
 
-%description -l pl
-Text::Glob jest implementacj± dopasowywania w stylu glob(3), ktÛre
-moøe byÊ uøywane do dopasowywania tekstu, a nie nazw plikÛw. Je∂li
-potrzeba pe≥nej implementacji glob dla plikÛw, naleøy uøyÊ modu≥u
+%description -l pl.UTF-8
+Text::Glob jest implementacjƒÖ dopasowywania w stylu glob(3), kt√≥re
+mo≈ºe byƒá u≈ºywane do dopasowywania tekstu, a nie nazw plik√≥w. Je≈õli
+potrzeba pe≈Çnej implementacji glob dla plik√≥w, nale≈ºy u≈ºyƒá modu≈Çu
 File::Glob zamiast tego.
 
 %prep
