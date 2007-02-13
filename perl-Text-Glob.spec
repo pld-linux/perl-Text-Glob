@@ -6,7 +6,7 @@
 %define		pdir	Text
 %define		pnam	Glob
 Summary:	Text::Glob perl module - match globbing patterns against text
-Summary(pl.UTF-8):   Moduł perla Text::Glob - dopasowywanie tekstu do wzorców
+Summary(pl.UTF-8):	Moduł perla Text::Glob - dopasowywanie tekstu do wzorców
 Name:		perl-Text-Glob
 Version:	0.07
 Release:	1
